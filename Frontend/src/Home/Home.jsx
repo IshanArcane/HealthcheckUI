@@ -1,15 +1,15 @@
 import React from 'react'
 import { useState, useEffect } from "react"
 import { motion, useAnimation } from "framer-motion"
-import Header from '../components/Header'
-import HeroSection from '../components/HeroSection'
-import FeatureHighlight from '../components/FeatureHighlight'
-import ServicesSection from '../components/ServicesSection'
-import TestimonialsSection from "../components/TestimonialsSection"
-import HealthStatsSection from "../components/HealthStatsSection"
-import CallToAction from "../components/CallToAction"
-import Footer from '../components/Footer'
-import WaveAnimation from "../components/WaveAnimation"
+import Header from '../components/Homepage/Header'
+import HeroSection from '../components/Homepage/HeroSection'
+import FeatureHighlight from '../components/Homepage/FeatureHighlight'
+import ServicesSection from '../components/Homepage/ServicesSection'
+import TestimonialsSection from "../components/Homepage/TestimonialsSection"
+import HealthStatsSection from "../components/Homepage/HealthStatsSection"
+import CallToAction from "../components/Homepage/CallToAction"
+import Footer from '../components/Homepage/Footer'
+import WaveAnimation from "../components/Homepage/WaveAnimation"
 
 const Home = () => {
     const [isDarkMode, setIsDarkMode] = useState(false)

@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import Home from './Home/Home';
+import AuthPage from './AuthPage/AuthPage';
 import './App.css'
 
 function AnimatedRoutes() {
@@ -8,6 +9,7 @@ function AnimatedRoutes() {
   return (
     <Routes location={location} key={location.pathname}>
       <Route path="/" element={<Home />} />
+      <Route path="/auth" element={<AuthPage />} />
     </Routes>
   )
 }
